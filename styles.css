@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'GeareddSlab';
+    src: url('Resources/fonts/GearedSlab.ttf') format('truetype');
+  }
+
+
+@font-face {
+  font-family: 'GearedSlab-Light';
+  src: url('Resources/fonts/GearedSlab-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GearedSlab-Bold';
+  src: url('Resources/fonts/GearedSlab-Bold.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'GearedSlab-Extrabold';
+  src: url('Resources/fonts/GearedSlab-Extrabold.ttf') format('truetype');
+  
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Nunito+Sans:ital,wght@0,200;0,600;0,700;1,400&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap');
+
+
+
+html {
+  display:block;
+}
+
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0 10%;
+    background-color: #eeeeee;
+}
+
+div {
+      display: block;
+}
+
+.container {
+    border: 2px solid #a2a2a6;
+    padding: 40px;
+    margin: 10px auto;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-family: 'GearedSlab-Extrabold';
+    color:black;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+img {
+  display: inline-block;
+}
+
+/*---------COLOR-------------*/
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.punk-pink {
+  background-color: #ff007f;
+}
+
+.sex-pistols-yellow {
+  background-color: #fff11f;
+}
+
+.black {
+  background-color: #000000;
+  color:#eeeeee;
+}
+
+.fb-grey {
+  background-color: #e4e6eb;
+}
+
+.blog-grey {
+  background-color: #eeeeee;
+}
+
+.dark-blog-grey {
+  background-color: #b0b0b0;
+}
+
+/*-------FONTS-------------*/
+
+.font-panel {
+  display: inline-block;
+  width: 32%;
+  text-align: left;
+  margin: 20px auto;
+  min-height: 100px;
+}
+
+.font-label {
+  text-decoration: underline;
+}
+
+.regular-gaerald-slab {
+  font-family: 'GeareddSlab', sans-serif;
+}
+
+.light-gaerald-slab {
+  font-family: 'GearedSlab-Light', sans-serif;
+}
+
+
+.extrabold-gaerald-slab{
+  font-family: 'GearedSlab-Extrabold', sans-serif;
+
+}
+
+.nunito {
+  font-family: 'Nunito';
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+
+/*--------- PROFILE IMAGES ----------*/
+
+.profile-container {
+  display: inline-block;
+  margin: 40px 40px;
+
+
+}
+
+.profile-container p {
+  font-weight: 700;
+}
+
